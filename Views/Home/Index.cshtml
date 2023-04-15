@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var hora = DateTime.Now.Hour;
+    var horas = DateTime.Now.ToLongTimeString();
+    
+}
+<script>setTimeout('location.reload(true);', 1000);</script>
+
+<div class="text-center">
+    <h1 class="display-4">@horas</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
